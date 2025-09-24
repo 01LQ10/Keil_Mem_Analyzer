@@ -190,8 +190,8 @@ class MapFileAnalyzer:
 def main():
     """主函数"""
     if len(sys.argv) != 4:
-        print("Usage: python map_analyzer.py <map_file> <flash_size_KB> <ram_size_KB>")
-        print("Example: python map_analyzer.py project.map 64 20")
+        print("Usage: python keil_mem_analyzer.py <map_file> <flash_size_KB> <ram_size_KB>")
+        print("Example: python keil_mem_analyzer.py test.map 64 20")
         sys.exit(1)
     
     map_file = sys.argv[1]
